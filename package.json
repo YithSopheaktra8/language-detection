@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "detectlanguage": "^2.1.0",
     "franc": "^6.2.0",
     "next": "14.2.3",
     "react": "^18",
