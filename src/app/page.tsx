@@ -9,7 +9,7 @@ export default function Home() {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    const result = francAll(input,{minLength: 3});
+    const result = francAll(input,{minLength: 3,only: ['khm','eng']});
     setData(result);
   }
 
